@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Agenda Filosofica</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+      margin-bottom: 24px;
+    }
+    .lang-switch a {
+      padding: 6px 14px;
+      background: #eee;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #555;
+      font-size: 13px;
+      font-weight: 600;
+      transition: background .15s;
+    }
+    .lang-switch a:hover { background: #ddd; }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 4px;
+      color: #0E0E12;
+    }
+    .subtitle {
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .updated {
+      color: #999;
+      font-size: 13px;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    h2 {
+      font-size: 19px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: #0E0E12;
+    }
+    p, ul { margin-bottom: 14px; font-size: 15px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    strong { color: #0E0E12; }
+    .highlight {
+      background: #fff7e6;
+      border-left: 4px solid #C9A96E;
+      padding: 14px 18px;
+      margin: 18px 0;
+      border-radius: 4px;
+    }
+    .contact {
+      background: #f0f0f0;
+      padding: 18px;
+      border-radius: 8px;
+      margin-top: 32px;
+    }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    a { color: #C9A96E; }
+  </style>
+</head>
+<body>
+
+  <div class="lang-switch">
+    <a href="#it" onclick="show('it')">🇮🇹 Italiano</a>
+    <a href="#en" onclick="show('en')">🇬🇧 English</a>
+  </div>
+
+  <!-- ITALIANO -->
+  <div id="it" class="lang-section active">
+    <h1>Privacy Policy</h1>
+    <div class="subtitle">Agenda Filosofica</div>
+    <div class="updated">Ultimo aggiornamento: 25 Maggio 2026</div>
+
+    <div class="highlight">
+      <strong>In breve:</strong> Agenda Filosofica <strong>NON raccoglie</strong> nessun dato personale. Tutto resta sul tuo dispositivo. Nessun account, nessuna registrazione, nessun tracciamento.
+    </div>
+
+    <h2>1. Chi siamo</h2>
+    <p>Questa applicazione mobile chiamata <strong>"Agenda Filosofica"</strong> (di seguito "l'App") è sviluppata e distribuita come strumento personale per la gestione del proprio tempo e dei propri appunti quotidiani.</p>
+
+    <h2>2. Dati raccolti</h2>
+    <p>L'App <strong>non raccoglie, non trasmette e non condivide</strong> alcun dato personale dell'utente. In particolare:</p>
+    <ul>
+      <li>Nessun dato viene inviato ai nostri server (non esistono server)</li>
+      <li>Nessun dato viene condiviso con terze parti</li>
+      <li>Nessun dato di analisi, telemetria o tracciamento</li>
+      <li>Nessun cookie, pixel di tracciamento o identificatore pubblicitario</li>
+      <li>Nessun accesso a contatti, rubrica, fotocamera o microfono</li>
+      <li>Nessun accesso alla posizione GPS</li>
+      <li>Nessun account, login o registrazione richiesti</li>
+    </ul>
+
+    <h2>3. Dati salvati localmente sul dispositivo</h2>
+    <p>L'App salva le informazioni che <strong>tu volontariamente inserisci</strong> esclusivamente sulla memoria locale del tuo dispositivo (tramite <em>localStorage</em>), tra cui:</p>
+    <ul>
+      <li>Nome, cognome, data di nascita, città e segno zodiacale (forniti nell'onboarding)</li>
+      <li>Eventi, appuntamenti e promemoria che crei</li>
+      <li>Persone care, compleanni e onomastici che aggiungi</li>
+      <li>Appunti, checklist e note del giorno</li>
+      <li>Le tue preferenze (tema colore, suoneria predefinita, ecc.)</li>
+    </ul>
+    <p>Questi dati <strong>non lasciano mai il tuo dispositivo</strong>. Sono accessibili solo a te.</p>
+
+    <h2>4. Notifiche</h2>
+    <p>L'App utilizza il sistema di <strong>notifiche locali</strong> di Android (Capacitor LocalNotifications) per ricordarti gli eventi e i promemoria che hai creato. Le notifiche vengono pianificate localmente sul dispositivo. Non utilizziamo notifiche push remote né server esterni.</p>
+
+    <h2>5. Permessi richiesti</h2>
+    <p>L'App richiede solo i seguenti permessi Android:</p>
+    <ul>
+      <li><strong>POST_NOTIFICATIONS</strong>: per mostrare i promemoria che tu stesso hai creato</li>
+      <li><strong>VIBRATE</strong>: per la vibrazione delle notifiche</li>
+      <li><strong>RECEIVE_BOOT_COMPLETED</strong>: per riprogrammare i tuoi promemoria dopo un riavvio del telefono</li>
+    </ul>
+
+    <h2>6. Eliminazione dei dati</h2>
+    <p>Poiché tutti i tuoi dati sono salvati solo sul tuo dispositivo, puoi eliminarli in qualsiasi momento:</p>
+    <ul>
+      <li>Disinstallando l'App (tutti i dati verranno rimossi automaticamente)</li>
+      <li>Andando in Impostazioni Android → App → Agenda Filosofica → Archiviazione → Cancella dati</li>
+    </ul>
+
+    <h2>7. Backup e esportazione</h2>
+    <p>L'App offre una funzione di <strong>esportazione del backup</strong> in formato JSON, che genera un file scaricato sul tuo dispositivo. Sei tu a decidere cosa farne (conservarlo localmente, condividerlo, ecc.). Noi non riceviamo né conserviamo alcuna copia di questo file.</p>
+
+    <h2>8. Bambini</h2>
+    <p>L'App è destinata a un pubblico generico (PEGI 3 / Per tutti). Non raccogliamo consapevolmente dati da bambini. Poiché l'App non raccoglie alcun dato, è sicura anche per minori sotto la supervisione di un genitore.</p>
+
+    <h2>9. Modifiche a questa Privacy Policy</h2>
+    <p>Possiamo aggiornare questa Privacy Policy nel tempo. Le modifiche verranno pubblicate su questa stessa pagina con la data di aggiornamento. Ti consigliamo di rileggerla periodicamente.</p>
+
+    <h2>10. Diritti dell'utente (GDPR)</h2>
+    <p>Pur non raccogliendo nessun dato personale, in conformità al Regolamento UE 2016/679 (GDPR) hai sempre i seguenti diritti:</p>
+    <ul>
+      <li><strong>Accesso</strong>: i tuoi dati sono visibili solo a te sull'App</li>
+      <li><strong>Rettifica</strong>: puoi modificare qualsiasi dato dall'interfaccia dell'App</li>
+      <li><strong>Cancellazione</strong>: puoi cancellare i dati tramite l'App o disinstallandola</li>
+      <li><strong>Portabilità</strong>: puoi esportare i tuoi dati con la funzione di backup</li>
+      <li><strong>Opposizione</strong>: non essendoci trattamento, non c'è nulla a cui opporsi</li>
+    </ul>
+
+    <div class="contact">
+      <h2 style="margin-top:0;">11. Contatti</h2>
+      <p>Per qualsiasi domanda riguardante questa Privacy Policy, puoi contattarci all'indirizzo email:</p>
+      <p><strong>📧 ds2dcompany@gmail.com</strong></p>
+      <p style="margin-bottom:0;font-size:13px;color:#777;">Sviluppatore: Sebastiano</p>
+    </div>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" class="lang-section">
+    <h1>Privacy Policy</h1>
+    <div class="subtitle">Agenda Filosofica</div>
+    <div class="updated">Last updated: May 25, 2026</div>
+
+    <div class="highlight">
+      <strong>In short:</strong> Agenda Filosofica <strong>does NOT collect</strong> any personal data. Everything stays on your device. No account, no registration, no tracking.
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>This mobile application called <strong>"Agenda Filosofica"</strong> (hereafter "the App") is developed and distributed as a personal tool for managing one's time and daily notes.</p>
+
+    <h2>2. Data collected</h2>
+    <p>The App <strong>does not collect, transmit or share</strong> any personal data of the user. Specifically:</p>
+    <ul>
+      <li>No data is sent to our servers (there are no servers)</li>
+      <li>No data is shared with third parties</li>
+      <li>No analytics, telemetry or tracking data</li>
+      <li>No cookies, tracking pixels or advertising identifiers</li>
+      <li>No access to contacts, address book, camera or microphone</li>
+      <li>No access to GPS location</li>
+      <li>No account, login or registration required</li>
+    </ul>
+
+    <h2>3. Data stored locally on the device</h2>
+    <p>The App stores the information you <strong>voluntarily enter</strong> exclusively on your device's local storage (via <em>localStorage</em>), including:</p>
+    <ul>
+      <li>Name, surname, date of birth, city and zodiac sign (provided during onboarding)</li>
+      <li>Events, appointments and reminders you create</li>
+      <li>Loved ones, birthdays and name days you add</li>
+      <li>Notes, checklists and daily memos</li>
+      <li>Your preferences (color theme, default ringtone, etc.)</li>
+    </ul>
+    <p>This data <strong>never leaves your device</strong>. It is accessible only to you.</p>
+
+    <h2>4. Notifications</h2>
+    <p>The App uses Android's <strong>local notifications</strong> system (Capacitor LocalNotifications) to remind you of events and reminders you have created. Notifications are scheduled locally on the device. We do not use remote push notifications or external servers.</p>
+
+    <h2>5. Required permissions</h2>
+    <p>The App requires only the following Android permissions:</p>
+    <ul>
+      <li><strong>POST_NOTIFICATIONS</strong>: to display reminders you have created yourself</li>
+      <li><strong>VIBRATE</strong>: for notification vibration</li>
+      <li><strong>RECEIVE_BOOT_COMPLETED</strong>: to reschedule your reminders after a phone restart</li>
+    </ul>
+
+    <h2>6. Data deletion</h2>
+    <p>Since all your data is saved only on your device, you can delete it at any time:</p>
+    <ul>
+      <li>By uninstalling the App (all data will be removed automatically)</li>
+      <li>By going to Android Settings → Apps → Agenda Filosofica → Storage → Clear data</li>
+    </ul>
+
+    <h2>7. Backup and export</h2>
+    <p>The App offers a <strong>backup export</strong> feature in JSON format, which generates a file downloaded to your device. You decide what to do with it (store locally, share, etc.). We do not receive or store any copy of this file.</p>
+
+    <h2>8. Children</h2>
+    <p>The App is intended for a general audience (PEGI 3 / All ages). We do not knowingly collect data from children. Since the App does not collect any data, it is also safe for minors under parental supervision.</p>
+
+    <h2>9. Changes to this Privacy Policy</h2>
+    <p>We may update this Privacy Policy over time. Changes will be published on this same page with the update date. We encourage you to review it periodically.</p>
+
+    <h2>10. User rights (GDPR)</h2>
+    <p>Although we do not collect any personal data, in accordance with EU Regulation 2016/679 (GDPR) you always have the following rights:</p>
+    <ul>
+      <li><strong>Access</strong>: your data is visible only to you on the App</li>
+      <li><strong>Rectification</strong>: you can modify any data from the App interface</li>
+      <li><strong>Erasure</strong>: you can delete data through the App or by uninstalling it</li>
+      <li><strong>Portability</strong>: you can export your data with the backup feature</li>
+      <li><strong>Objection</strong>: since there is no processing, there is nothing to object to</li>
+    </ul>
+
+    <div class="contact">
+      <h2 style="margin-top:0;">11. Contact</h2>
+      <p>For any questions regarding this Privacy Policy, you can contact us at the email address:</p>
+      <p><strong>📧 ds2dcompany@gmail.com</strong></p>
+      <p style="margin-bottom:0;font-size:13px;color:#777;">Developer: Sebastiano</p>
+    </div>
+  </div>
+
+  <script>
+    function show(lang) {
+      document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+      window.scrollTo(0, 0);
+    }
+    // Show based on URL hash
+    if (window.location.hash === '#en') show('en');
+  </script>
+</body>
+</html>
